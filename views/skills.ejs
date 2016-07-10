@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html>
+    
+<head>
+     <% include ./partials/cssIncludes.ejs %>
+     <% include ./partials/jsIncludes.ejs %>
+     <script src="/js/jqCloud.min.js"></script>
+</head>
+    
+<body>     
+    
+    <% include ./partials/menu.ejs %>
+    <br/><br/><br/><br/><br/><br/>
+    
+    <div class="container">    
+         <div class="row">
+        
+          <div class="col-sm-offset-3 col-md-6">
+          
+              <div style="align:center;font-size:30px;width: 550px; height: 350px;" id="skills"></div>
+              
+          </div>     
+        
+         </div>        
+    </div>
+    
+    
+    
+    <script>
+         var words = [
+  {text: "JIRA", weight: 13},  {text: "ManualTesting", weight: 10.5},
+  {text: "Jenkins", weight: 9.4},  {text: "SDLC", weight: 8},
+  {text: "SeleniumWebDriver", weight: 6.2}, {text: "Appium", weight: 7}, 
+  {text: "TestNG", weight: 1},  {text: "AutomationTesting", weight: 11},
+  {text: "Bugzilla", weight: 16} ,{text: "Java", weight: 5},{text: "C#", weight: 6}
+ 
+   ];
+         $('#skills').jQCloud(words,{
+             colors: ["#93F9B9", "#4B79A1", "#182848", "#414345", "#AA076B", "#457fca", "#ff9068"]
+         });
+     </script>
+    
+    
+    
+</body>
+</html>
+
