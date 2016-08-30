@@ -1,36 +1,417 @@
 
-<html>
-    
+<!DOCTYPE html>
+
+<!--[if lt IE 8 ]><html class="no-js ie ie7" lang="en"> <![endif]-->
+<!--[if IE 8 ]><html class="no-js ie ie8" lang="en"> <![endif]-->
+<!--[if (gte IE 8)|!(IE)]><!--><html class="no-js" lang="en"> <!--<![endif]-->
 <head>
-     <% include ./partials/cssIncludes.ejs %>
-     <title>KTSrinivas</title>
+
+   <!--- Basic Page Needs
+   ================================================== -->
+   <meta charset="utf-8">
+	<title>ktsprasad</title>
+	<meta name="description" content="">
+	<meta name="author" content="">
+
+   <!-- Mobile Specific Metas
+   ================================================== -->
+	<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+
+	<!-- CSS
+    ================================================== -->
+   <link rel="stylesheet" href="css/default.css">
+ 	 <link rel="stylesheet" href="css/layout.css">
+   <link rel="stylesheet" href="css/media-queries.css">
+   <link rel="stylesheet" href="css/magnific-popup.css">
+
+   <!-- Script
+   ================================================== -->
+	<script src="js/modernizr.js"></script>
+
+   <!-- Favicons
+	================================================== -->
+	<link rel="shortcut icon" href="images/profilepic.jpg" >
 
 </head>
-    
-<body>     
-    
-    <% include ./partials/menu.ejs %>
-    <br/><br/><br/><br/><br/><br/>
-    
-    <div class="container">
-    
-         <div class="row">
-        
-          <div class="col-md-6">
-          <img class="img-responsive center-block img-circle" src="images/iamkt.jpg"/>        
-          </div>
-             
-          <div class="col-md-5">
-                <p style="font-size:30px">
-                 In morning I'm a test engineer, writing tests and automating applications.
-                 By afternoon I fiddle with software bugs and developers, by night I make sure thing are working smoothly. By the way, my parents gave me beautiful name of Srinivas.    
-                </p>  
-          </div>     
-        
+
+<body>
+
+   <!-- Header
+   ================================================== -->
+   <header id="home">
+
+      <nav id="nav-wrap">
+
+         <a class="mobile-btn" href="#nav-wrap" title="Show navigation">Show navigation</a>
+	      <a class="mobile-btn" href="#" title="Hide navigation">Hide navigation</a>
+
+         <ul id="nav" class="nav">
+            <li class="current"><a class="smoothscroll" href="#home">Home</a></li>
+            <li><a class="smoothscroll" href="#about">About</a></li>
+	         <li><a class="smoothscroll" href="#resume">Resume</a></li>
+            <li><a class="smoothscroll" href="#portfolio">Achievements</a></li>
+            <li><a class="smoothscroll" href="#testimonials">Take Away</a></li>
+         </ul> <!-- end #nav -->
+
+      </nav> <!-- end #nav-wrap -->
+
+      <div class="row banner">
+         <div class="banner-text">
+            <h1 class="responsive-headline">I'm Srinivas Prasad K T</h1>
+            <h3>I'm a Bangalore based <span>tea lover</span> cum <span>programmer</span> cum <span>automation test engineer</span> and an <span>autodidact   </span>. I believe in <span>myself</span>
+                . For some people I'm a boring person, for some I'm a tea addict and some people hate me just because I don't do what they do But I love them all. In morning I'm a test engineer, writing tests and automating applications. By afternoon I fiddle with software bugs and developers, by night I make sure thing are working smoothly. By the way, my parents gave me beautiful name of <span>Srinivas Prasad K T S Gowda</span>. If you are interested to know more <a class="smoothscroll" href="#about">start scrolling</a>
+            </h3>
+            <hr />
+            <ul class="social">
+               <li><a target ="_blank" href="https://www.facebook.com/ktsrinivasgowda"><i class="fa fa-facebook"></i></a></li>
+               <li><a target ="_blank" href="https://twitter.com/ktsrinivasgowda"><i class="fa fa-twitter"></i></a></li>
+               <li><a target ="_blank" href="https://plus.google.com/u/0/+SrinivasPrasadSGowda/posts"><i class="fa fa-google-plus"></i></a></li>
+               <li><a target ="_blank" href="https://in.linkedin.com/in/ktsprasad"><i class="fa fa-linkedin"></i></a></li>
+           </ul>
          </div>
-        
-    </div>
-    
+      </div>
+
+      <p class="scrolldown">
+         <a class="smoothscroll" href="#about"><i class="icon-down-circle"></i></a>
+      </p>
+
+   </header> <!-- Header End -->
+
+
+   <!-- About Section
+   ================================================== -->
+   <section id="about">
+
+      <div class="row">
+
+         <div class="three columns">
+
+            <img class="profile-pic"  src="images/profilepic.jpg" alt="" />
+
+         </div>
+
+         <div class="nine columns main-col">
+
+            <h2>About Me</h2>
+
+            <p>Born and brought up in Mandya district of South Karnataka (India).
+            I must admit that I am addicted to tea and coffee. I love learning new things whether its related to tech, art or whatever.
+            I do believe that If you want to achieve something then you can not give an average effort because if it can be achieved by an average effort everybody would do it. I love travelling, every now and then I take a random trip around Bangalore to search for the best tea shops.
+            I am a certified <span>JAVA Programmer</span>
+
+            </p>
+
+            <div class="row">
+
+               <div class="columns contact-details">
+
+                  <h2>Contact Details</h2>
+                  <p class="address">
+						   <span>Srinivas Prasad K T</span><br>
+						  <span>ktsrinivasgowda@gmail.com</span><br>
+                          <span>+91-9980801780</span>
+					   </p>
+
+               </div>
+
+               <div class="columns download">
+
+               </div>
+
+            </div> <!-- end row -->
+
+         </div> <!-- end .main-col -->
+
+      </div>
+
+   </section> <!-- About Section End-->
+
+
+   <!-- Resume Section
+   ================================================== -->
+   <section id="resume">
+
+      <!-- Education
+      ----------------------------------------------- -->
+      <div class="row education">
+
+         <div class="three columns header-col">
+            <h1><span>Education</span></h1>
+         </div>
+
+         <div class="nine columns main-col">
+
+            <div class="row item">
+
+               <div class="twelve columns">
+
+                  <h3>MCA - Master of Computer Application</h3>
+                  <p class="info">East West Institute of Technology, Bengaluru<span>&bull;</span> <em class="date">June 2011</em></p>
+
+                  <p>
+                  I completed my Master of Computer Application in Computer Science stream. I was a decent student in my post graduation time.
+                  Data Structures, Maths, Artificial Intelligence, RDBMS were my favourite subjects.
+                  Bunking classes, calling proxies, late night studies, midnight walks and railway station tea was part of every day in college time.
+                 </p>
+
+               </div>
+
+            </div> <!-- item end -->
+
+
+
+         </div> <!-- main-col end -->
+
+      </div> <!-- End Education -->
+
+
+      <!-- Work
+      ----------------------------------------------- -->
+      <div class="row work">
+
+         <div class="three columns header-col">
+            <h1><span>Work</span></h1>
+         </div>
+
+         <div class="nine columns main-col">
+
+            <div class="row item">
+
+               <div class="twelve columns">
+
+                  <h3>Harman International Industries</h3>
+                  <p class="info">Test Engineer <span>&bull;</span> <em class="date">June 2015 - Present</em></p>
+
+                  <p>
+                  I'm currently working at Harman International Industries which is an array of legendary brands that includes Harman Kardon®, JBL®, Mark Levinson® and Infinity®.. My work is to automation of functional test cases using Selenium Webdriver, Appium and T-Plan.
+                  </p>
+
+               </div>
+
+            </div> <!-- item end -->
+
+            <div class="row item">
+
+               <div class="twelve columns">
+
+                  <h3>Heaven Zrs Technologies</h3>
+                  <p class="info">Software Engineer <span>&bull;</span> <em class="date">August 2014 - June 2015</em></p>
+
+                  <p>
+                  Heaven Zrs Technologies was my second workplace where I worked as a Test Enginner. As a Test Enginner my work is to Automation of functional test cases using Selenium Webdriver.
+
+                  </p>
+
+               </div>
+
+            </div> <!-- item end -->
+
+            <div class="row item">
+
+               <div class="twelve columns">
+
+                  <h3>E2open</h3>
+                  <p class="info">Software Engineer <span>&bull;</span> <em class="date">April 2012 - June 2014</em></p>
+
+                  <p>
+                  E2open was my first workplace where I worked as a Software Engineer. As a Software Engineer my role is
+                  to Automation and Execution of functional test cases using Webdriver.
+                  I liked my first Job and still I visit my old workplace when I get sometime.
+
+                  </p>
+
+               </div>
+
+            </div> <!-- item end -->
+
+
+         </div> <!-- main-col end -->
+
+      </div> <!-- End Work -->
+
+
+      <!-- Skills
+      ----------------------------------------------- -->
+      <div class="row skill">
+
+         <div class="three columns header-col">
+            <h1><span>Skills</span></h1>
+         </div>
+
+         <div class="nine columns main-col">
+
+            <p>
+            	If you are working in IT domain. Then you must know that only way to survive in IT field is to increase your skills regularly.
+            	And its not a hard thing to do, If you are interested in your work and have the passion to do it.
+
+            </p>
+
+				<div class="bars">
+
+				   <ul class="skills">
+					   <li><span class="bar-expand css"></span><em>JAVA</em></li>
+                       <li><span class="bar-expand jquery"></span><em>JavaScript</em></li>
+                  <li><span class="bar-expand illustrator"></span><em>SQL</em></li>
+						<li><span class="bar-expand wordpress"></span><em>Appium</em></li>
+						<li><span class="bar-expand wordpress"></span><em>T-Plan</em></li>
+						<li><span class="bar-expand jquery"></span><em>TestNG</em></li>
+                       <li><span class="bar-expand jquery"></span><em>JIRA</em></li>
+                  <li><span class="bar-expand html5"></span><em>Selenium WebDriver</em></li>
+					</ul>
+
+				</div><!-- end skill-bars -->
+
+			</div> <!-- main-col end -->
+
+      </div> <!-- End skills -->
+
+   </section> <!-- Resume Section End-->
+
+
+   <!-- Portfolio Section
+   ================================================== -->
+   <section id="portfolio">
+
+      <div class="row">
+
+         <div class="twelve columns collapsed">
+
+            <h1>Check Out Some of My Achievements.</h1>
+
+            <!-- portfolio-wrapper -->
+        <div id="portfolio-wrapper" class="bgrid-quarters s-bgrid-thirds cf">
+
+          	   <div class="columns portfolio-item">
+                  <div class="">
+                       <a target="_blank"> <img alt="" src="images/portfolio/coffee.jpg"/></a>
+                  </div>
+          		</div> <!-- item end -->
+                <div class="columns portfolio-item">
+                  <div class="">
+                       <a target="_blank"> <img alt="" src="images/portfolio/NCC.JPG"/></a>
+                  </div>
+          		</div> <!-- item end -->
+                      	   <div class="columns portfolio-item">
+                  <div class="">
+                       <a target="_blank"> <img alt="" src="images/portfolio/Inspire.jpg"/></a>
+                  </div>
+          		</div> <!-- item end -->
+                      	   <div class="columns portfolio-item">
+                  <div class="">
+                       <a target="_blank"> <img alt="" src="images/portfolio/Cricket.JPG"/></a>
+                  </div>
+          		</div> <!-- item end -->
+				</div> <!-- portfolio-wrapper end -->
+
+         </div> <!-- twelve columns end -->
+      </div> <!-- row End -->
+
+   </section> <!-- Portfolio Section End-->
+
+
+   <!-- Call-To-Action Section
+   ================================================== -->
+
+
+   </section> <!-- Call-To-Action Section End-->
+
+
+   <!-- Testimonials Section
+   ================================================== -->
+   <section id="testimonials">
+
+      <div class="text-container">
+
+         <div class="row">
+
+            <div class="two columns header-col">
+
+               <h1><span>Some Motivation to take away</span></h1>
+
+            </div>
+
+            <div class="ten columns flex-container">
+
+               <div class="flexslider">
+
+                  <ul class="slides">
+
+                     <li>
+                        <blockquote>
+                           <p>
+                           	Always bear in mind that your own resolution to succeed is more important than any other .
+                           </p>
+                           <cite>Abraham Lincoln</cite>
+                        </blockquote>
+                     </li> <!-- slide ends -->
+
+                     <li>
+                        <blockquote>
+                           <p>
+                           Life is short, break the rules, forgive quickly, kiss slowly, love truly, laugh uncontrollably, and never regret
+                           anything that made you smile. Twenty years from now you will be more disappointed by the things that you didn't do
+                           than by the ones you did. So throw off the bowlines. sail away from the safe harbor. Catch the trade winds in your sails.
+                           Explore. Dream. Discover
+                           </p>
+                           <cite>Mark Twain</cite>
+                        </blockquote>
+                     </li> <!-- slide ends -->
+
+                  </ul>
+
+               </div> <!-- div.flexslider ends -->
+
+            </div> <!-- div.flex-container ends -->
+
+         </div> <!-- row ends -->
+
+       </div>  <!-- text-container ends -->
+
+   </section> <!-- Testimonials Section End-->
+
+
+   <!-- Contact Section
+   ================================================== -->
+
+
+   <!-- footer
+   ================================================== -->
+   <footer>
+
+      <div class="row">
+
+         <div class="twelve columns">
+
+            <ul class="social-links">
+               <li><a target ="_blank" href="https://www.facebook.com/ktsrinivasgowda"><i class="fa fa-facebook"></i></a></li>
+               <li><a target ="_blank" href="https://twitter.com/ktsrinivasgowda"><i class="fa fa-twitter"></i></a></li>
+               <li><a target ="_blank" href="https://plus.google.com/u/0/+SrinivasPrasadSGowda/posts"><i class="fa fa-google-plus"></i></a></li>
+               <li><a target ="_blank" href="https://in.linkedin.com/in/ktsprasad"><i class="fa fa-linkedin"></i></a></li>
+            </ul>
+
+            <ul class="copyright">
+               <li>Thank  <h3>you</h3></li>
+            </ul>
+
+         </div>
+
+         <div id="go-top"><a class="smoothscroll" title="Back to Top" href="#home"><i class="icon-up-open"></i></a></div>
+
+      </div>
+
+   </footer> <!-- Footer End-->
+
+   <!-- Java Script
+   ================================================== -->
+   <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
+   <script>window.jQuery || document.write('<script src="js/jquery-1.10.2.min.js"><\/script>')</script>
+   <script type="text/javascript" src="js/jquery-migrate-1.2.1.min.js"></script>
+
+   <script src="js/jquery.flexslider.js"></script>
+   <script src="js/waypoints.js"></script>
+   <script src="js/jquery.fittext.js"></script>
+   <script src="js/magnific-popup.js"></script>
+   <script src="js/init.js"></script>
+
 </body>
 </html>
-
